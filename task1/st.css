@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-group input[type="submit"] {
+    background-color: #e70e0e;
+    color: rgb(7, 7, 7);
+    border: none;
+    cursor: pointer;
+  }
